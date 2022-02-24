@@ -29,7 +29,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'main.apps.MainConfig',
     'users.apps.UsersConfig',
-    # 'bootstrap4',
+    'maps.apps.MapsConfig',
+    'bootstrap4'
 ]
 
 MIDDLEWARE = [
@@ -71,7 +72,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'corona_db',
         'USER': 'root',
-        'PASSWORD': 'dlwldus79',
+        'PASSWORD': 'ckdgus8906!',
         'HOST': '127.0.0.1',
         'PORT': '3306'
     }
