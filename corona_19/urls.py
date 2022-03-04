@@ -13,5 +13,6 @@ urlpatterns = [
     path('maps/', include('maps.urls')),                                      # Maps Page
     path('guide/', include('guide.urls')),                                    # Guide Page(코로나 증상 및 예방 조치)
     path('diagnosis/', include('diagnosis.urls')),                            # Diagnosis Page(자가진단)
+    # path('bbs/', include('bbs.urls')),                                        # BBS Page(전문의에게 물어보세요 게시판)
 ] + static(settings.MEDIA_URL,
            document_root=settings.MEDIA_ROOT)

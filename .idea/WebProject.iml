@@ -20,6 +20,7 @@
     <orderEntry type="library" name="jquery-2.2.4" level="application" />
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="jquery-2.2.4" level="application" />
+    <orderEntry type="library" name="all" level="application" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">
@@ -29,6 +30,7 @@
         <option value="$MODULE_DIR$/maps/templates" />
         <option value="$MODULE_DIR$/templates" />
         <option value="$MODULE_DIR$/users/templates" />
+        <option value="$MODULE_DIR$/main/templates" />
       </list>
     </option>
   </component>
