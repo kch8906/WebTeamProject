@@ -179,17 +179,17 @@ table.ds_table tbody tr:last-of-type td:last-of-type{border-bottom-right-radius:
 .vaccine_list{background: #fff;  overflow: hidden; width: 100%; float: left; position: relative; }
 .vaccine_list:after{content:""; display: block; position: absolute; right:0px; top:0px; width: 1px; height: 38px; background:#1B70C5;}
 .vaccineNum .vaccine_list *{ }
-.vaccineNum .vaccine_list .box{float: left; width: 33.333%;  position: relative; }
+.vaccineNum .vaccine_list .box{float: left; width: 33.333%;  position: relative;}
 .vaccineNum .vaccine_list .box + .box + .box.sixty_up ul{overflow: visible; margin-top:-10px;}
-.vaccineNum .vaccine_list .box + .box + .box.sixty_up ul .percent{margin-top: 10px;}
-.vaccineNum .vaccine_list .box > div:nth-of-type(2){min-height: 100px; background: #fff; padding: 30px 10px; padding-bottom:20px; text-align: center;}
+.vaccineNum .vaccine_list .box + .box + .box.sixty_up ul .percent{margin-top: 50px;}
+.vaccineNum .vaccine_list .box > div:nth-of-type(2){min-height: 100px; background: #fff; padding: 20px 10px; padding-bottom:20px; text-align: center;}
 .vaccineNum .vaccine_list .box:FIRST-CHILD > div:nth-of-type(2){padding-left: 20px;}
 .vaccineNum .vaccine_list ul{ position: relative;  width: 100%; overflow: hidden; display: inline-block; margin: auto}
 .vaccineNum .vaccine_list li{color:#777;}
 .vaccineNum .vaccine_list .item{font-size: 18px;font-weight: 500; text-align: center; background: #1B70C5; padding: 10px; color:#fff; }
-.vaccineNum .vaccine_list li.percent{font-size: 28px; font-family:'Spoqa Han Sans'; font-weight: 700; letter-spacing: 0.035em; float: left; width: 80px; color: #0E62B5; transform: translateY(5px)}
-.vaccineNum .vaccine_list li.percent span{font-size: 15px; margin-left:  2px; font-weight: 300; color:#686868}
-.vaccineNum .vaccine_list li.person{font-size: 14px; padding-left: 30px; position: relative; line-height: 16px; font-family:'Spoqa Han Sans'; letter-spacing: 0.015em; color:#222; font-weight: 500; float: right; width: calc(100% - 90px)}
+/*.vaccineNum .vaccine_list li.percent{font-size: 28px; font-family:'Spoqa Han Sans'; font-weight: 700; letter-spacing: 0.035em; float: left; width: 80px; color: #0E62B5; transform: translateY(5px)}*/
+/*.vaccineNum .vaccine_list li.percent span{font-size: 15px; margin-left:  2px; font-weight: 300; color:#686868}*/
+.vaccineNum .vaccine_list li.person{font-size: 20px; padding-left: 90px; position: relative; line-height: 25px; font-family:'Spoqa Han Sans'; letter-spacing: 0.015em; color:#222; font-weight: 500; float: none; width: calc(100% - 90px)}
 .vaccineNum .vaccine_list .box.sixty_up li.person:last-child{padding-left:55px; color:#222;}
 .vaccineNum .vaccine_list .box + .box + .box li.person + .person + .person{display:none;} 
 .vaccineNum .vaccine_list .box + .box + .box.sixty_up li.person + .person + .person{display:block;} 
@@ -206,9 +206,9 @@ table.ds_table tbody tr:last-of-type td:last-of-type{border-bottom-right-radius:
 	.vaccineNum .vaccine_list .item{font-size: 14px}
 	.vaccineNum .vaccine_list .box > div:nth-of-type(2){padding: 15px 5px; min-height: inherit}
 	.vaccineNum .vaccine_list ul{width: inherit}
-	.vaccineNum .vaccine_list li.percent{float: none; width: 100%; font-size: 20px; transform: none; margin-bottom: 5px}
+	/*.vaccineNum .vaccine_list li.percent{float: none; width: 100%; font-size: 20px; transform: none; margin-bottom: 5px}*/
 	.vaccineNum .vaccine_list li.person{float: none; width: 100%; padding-left: 0}
-	.vaccineNum .vaccine_list li.person span{position: static; padding-right: 5px}
+	.vaccineNum .vaccine_list li.person span{position: static; padding-right: 5px;}
 }
 /*예방접종현황*/
 
@@ -557,7 +557,7 @@ table.ds_table tbody tr:last-of-type td:last-of-type{border-bottom-right-radius:
 .m_con_layout { clear:both; width:100%; height:auto; overflow:hidden; padding-top:20px;}
 
 /* main popupzone */
-.m_popupzone{position:relative; float:left; }
+.m_popupzone{position:relative; float:top; }
 .m_popupzone .slide_btn [class^="btn_"] {position:absolute; top:45%; display:block; width:32px; height:32px; z-index:11;}
 .m_popupzone .slide_btn .btn_prev {left:10px;background:url(/static/main/img/main/btn_pre.png) no-repeat;}
 .m_popupzone .slide_btn .btn_next {right:10px;background:url(/static/main/img/main/btn_next.png) no-repeat;}
