@@ -18,12 +18,11 @@ function link_url(link_url) {
 <!-- Live_container -->
 <div class="mainlive_container" id="content">
     <div class="container">
-        <div>
-            <div class="liveboard_layout">
-                <!-- // 예방접종 현황 시작 -->
-                <div class="vaccineNum">
-<!--                    <input type="button" value="예방접종현황 Ajax" onclick="my_func()">-->
-                    <h2 class="title1">예방접종현황<span class="livedate">(02.21. 00시 기준, '21.2.26. 이후 누계, 단위: %, 명)</span></h2>
+        <div class="liveboard_layout">
+            <!-- // 예방접종 현황 시작 -->
+            <div class="vaccineNum">
+<!--                <input type="button" value="예방접종현황 Ajax" onclick="my_func()">-->
+                <h2 class="title1">예방접종현황<span class="livedate">(02.21. 00시 기준, '21.2.26. 이후 누계, 단위: %, 명)</span></h2>
                     <div>
                         <div class="vaccine_list">
                             <div class="inner cl_b_aftr">
@@ -31,6 +30,7 @@ function link_url(link_url) {
                                     <div class="item"><span>1차접종</span></div>
                                     <div>
                                         <ul>
+                                            <li class="percent" id="percent1">87.4<span>%</span></li>
                                             <li class="person" id="person1T"><span>누적</span>44,799,973</li>
                                             <li class="person" id="person1N"><span>신규</span>305 <img src="/static/main/img/main/vaccine_up_icon2.png" alt=""></li>
                                         </ul>
@@ -40,6 +40,7 @@ function link_url(link_url) {
                                     <div class="item"><span>2차접종</span></div>
                                     <div>
                                         <ul>
+                                            <li class="percent" id="percent2">86.5<span>%</span></li>
                                             <li class="person" id="person2T"><span>누적</span>44,300,971</li>
                                             <li class="person" id="person2N"><span>신규</span>520 <img src="/static/main/img/main/vaccine_up_icon2.png" alt=""></li>
                                         </ul>
@@ -49,6 +50,7 @@ function link_url(link_url) {
                                     <div class="item"><span>3차접종</span></div>
                                     <div>
                                         <ul>
+                                            <li class="percent" id="percent3">61.9<span>%</span></li>
                                             <li class="person" id="person3T"><span>누적</span>30,464,700</li>
                                             <li class="person" id="person3N"><span>신규</span>7,253 <img src="/static/main/img/main/vaccine_up_icon2.png" alt=""></li>
                                         </ul>
@@ -78,6 +80,7 @@ function link_url(link_url) {
                         </div><!-- live_left -->
                     </div>
                 </div>
+                <br><br><br><br><br><br>
                 <div class="m_con_layout">
                     <!-- // 슬라이드 배너 시작 -->
                     <div class="m_popupzone">
@@ -91,7 +94,7 @@ function link_url(link_url) {
                         <div class="slide_list">
                             <div class="slide_list">
                                 <ul>
-                                    <li><a target="_blank" href=" http://www.mohw.go.kr/react/al/sal0301vw.jsp?PAR_MENU_ID=04&amp;MENU_ID=0403&amp;page=1&amp;CONT_SEQ=370413 "><img alt="모든 시설 방역패스 적용 해제 및 선별진료소 음성확인서 발급 중단(3.1~)" src="/static/main/img/banner/banner1.png" /></a></li><li><a target="_blank" href=" https://www.kdca.go.kr/board/board.es?mid=a20507020000&amp;bid=0019&amp;act=view&amp;list_no=718596&amp;tag=&amp;nPage=1  "><img alt="코로나19 확진을 받은 환자 및 밀접접촉자 (가족, 동거인)을 위한 안내문 자세히 보기" src="/static/main/img/banner/banner2.jpg" /></a></li><li><a target="_blank" href=" https://youtu.be/RO8H8Fjahp0 "><img alt="누구나 따라할 수 있어요! 코로나19 자가검사키트 사용법과 행동요령 (식품의약품안전처, 질병관리청)" src="/static/main/img/banner/banner3.jpg" /></a></li><li><a target="_blank" href=" https://www.youtube.com/embed/kdca?list=PLQ1C5YbGRe_ICEIyhKlFv5CrENv38quKk&amp;autoplay=1 "><img alt="코로나 바이러스감염증-19 정부대응발표 LIVE 시청 가능! 자세히보기" src="/static/main/img/banner/banner4.jpg" /></a></li>
+                                    <li><a target="_blank" href=" http://ncov.mohw.go.kr/upload/viewer/skin/doc.html?fn=1646039955403_20220228181915.hwp&amp;rs=/upload/viewer/result/202203/ "><img alt="접종증명음성확인제도(방역패스)시행일시중단(3월1일0시부터)" src="/static/main/img/banner/banner1.jpg" /></a></li><li><a target="_blank" href=" https://www.kdca.go.kr/board/board.es?mid=a20507020000&amp;bid=0019&amp;act=view&amp;list_no=718596&amp;tag=&amp;nPage=1  "><img alt="코로나19 확진을 받은 환자 및 밀접접촉자 (가족, 동거인)을 위한 안내문 자세히 보기" src="/static/main/img/banner/banner2.jpg" /></a></li><li><a target="_blank" href=" https://youtu.be/RO8H8Fjahp0 "><img alt="누구나 따라할 수 있어요! 코로나19 자가검사키트 사용법과 행동요령 (식품의약품안전처, 질병관리청)" src="/static/main/img/banner/banner3.jpg" /></a></li><li><a target="_blank" href=" https://www.youtube.com/embed/kdca?list=PLQ1C5YbGRe_ICEIyhKlFv5CrENv38quKk&amp;autoplay=1 "><img alt="코로나 바이러스감염증-19 정부대응발표 LIVE 시청 가능! 자세히보기" src="/static/main/img/banner/banner4.jpg" /></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -101,6 +104,5 @@ function link_url(link_url) {
             </div>
         </div>
     </div>
-</div>
 <!-- Live_container //-->
 {% endblock %}

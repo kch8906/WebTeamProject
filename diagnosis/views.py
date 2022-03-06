@@ -13,7 +13,7 @@ def s_diagnosis(request):
         'q_list': question,
         'c_list': choice
     }
-    return render(request, 'diagnosis/main.html', context)
+    return render(request, 'diagnosis/main1.html', context)
 
 
 # def s_detail(request, question_id):
@@ -47,18 +47,25 @@ def my_views(request):
         for i in range(8):
             selected = request.POST.get('selected' + str(i))
             select_list.append(int(selected))
+
+            # sl = str(selected)
+            # select_list.append(int(sl))
+
         result = sum(select_list)
 
         if len(select_list) != 8:
             messages.warning(request, '{} 표 입니다. 선택지를 모두 제출해 주세요. 8초 뒤 "자가진단" 페이지로 이동합니다.'.format(result))
-            return redirect('diagnosis:s_diagnosis')
+            return render(request, 'diagnosis/main2.html')
 
         else:
             if result < 4:
                 messages.warning(request, '{} 표 입니다. 코로나가 의심되지 않지만 조심하세요. 8초 뒤 "코로나 증상 및 행동수칙" 페이지로 이동합니다.'.format(result))
-                # return redirect('guide:guide')
+                return render(request, 'diagnosis/main3.html')
 
-            elif 4 <= result == 8:
+            elif 4 <= result:
                 messages.warning(request, '{} 표 입니다. 코로나가 의심되오니 즉시 선별검사소나 병원을 방문하세요. 8초 뒤 "전문의에게 물어보세요" 페이지로 이동합니다.'.format(result))
+                return render(request, 'diagnosis/main1.html')
 
-        return redirect('diagnosis:s_diagnosis')
+            elif result == 8:
+                messages.warning(request, '{} 표 입니다. 코로나가 의심되오니 즉시 선별검사소나 병원을 방문하세요. 8초 뒤 "전문의에게 물어보세요" 페이지로 이동합니다.'.format(result))
+                return render(request, 'diagnosis/main1.html')
