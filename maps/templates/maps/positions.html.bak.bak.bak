@@ -59,12 +59,11 @@
 #pagination {margin:10px auto;text-align: center;}
 #pagination a {display:inline-block;margin-right:10px;}
 #pagination .on {font-weight: bold; cursor: default;color:#777;}
-</style>
 
+</style>
 {% endblock %}
 
 {% block html_body %}
-
 {#	<div id="map" style="width:30%;height:200vh;"></div>#}
     <p style="margin-top:0px"></p>
     <div class="map_wrap">
