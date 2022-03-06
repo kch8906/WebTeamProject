@@ -64,6 +64,7 @@
 {% endblock %}
 
 {% block html_body %}
+
 {#	<div id="map" style="width:30%;height:200vh;"></div>#}
     <p style="margin-top:0px"></p>
     <div class="map_wrap">
