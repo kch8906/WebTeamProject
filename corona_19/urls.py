@@ -9,6 +9,7 @@ urlpatterns = [
     path('', TemplateView.as_view(template_name='index.html'), name='home'),  # Home Page
     path('admin/', admin.site.urls),                                          # Admin Page
     path('main/', include('main.urls')),                                      # login 후 Home Page
-    path('users/', include('users.urls')),                                    # login, 회원가입 page
+    path('users/', include('users.urls')),        # login, 회원가입 page
+    path('maps/', include('maps.urls')),
 ] + static(settings.MEDIA_URL,
            document_root=settings.MEDIA_ROOT)
