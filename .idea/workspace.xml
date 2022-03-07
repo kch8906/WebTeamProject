@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab161ddf-6ae9-4da3-9006-279fff52403e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WebProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebTeamProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01. 프로젝트 기획안_v rㅊr.hwp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_19/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_19/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_19/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_19/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_19/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/templates/maps/positions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/css/main_sub1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/css/main_sub2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/css/main_sub3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/css/main_sub4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/banner/banner1 - 복사본.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/banner/banner1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/banner/banner2 - 복사본.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/banner/banner2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/banner/banner3 - 복사본.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/banner/banner3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/banner/banner4 - 복사본.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/banner/banner4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/banner/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/banner/logout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/chart/bar_legend_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/chart/bar_legend_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/chart/bar_legend_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/chart/bar_legend_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/chart/line_legend_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/chart/line_legend_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/chart/line_legend_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/chart/line_legend_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/header/header_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/header/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/main/btn_next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/main/btn_pre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/main/ico_pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/main/info_icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/main/quick_icon_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/main/quick_icon_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/main/quick_icon_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/main/quick_icon_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/main/vaccine_up_icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/js/chart_kr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/js/chartjs-plugin-datalabels.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/js/jquery-1.11.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/js/main_sub1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/js/main_sub3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/js/main_sub4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/maps/csv/data_hospital.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/maps/js/search_Something.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/users/css/account.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/users/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/account.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/가상환경 설정.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25Rjm0bwv8G9z58Bk5b4Ljevdwk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.18.12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WebTeamProject\graphs" />
+      <recent name="F:\WebTeamProject\graphs\src" />
+      <recent name="F:\WebTeamProject\graphs\src\components" />
+      <recent name="F:\WebTeamProject\graphs\public" />
+      <recent name="F:\WebTeamProject\static\graph\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\WebTeamProject\graphs\templates" />
+      <recent name="F:\WebTeamProject\static\graph\json" />
+      <recent name="F:\WebTeamProject\static\users\css" />
+      <recent name="F:\WebTeamProject\static\main\img\banner" />
+      <recent name="F:\WebTeamProject\users\static\css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.1">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="WebProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="WebProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WebProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="WebProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
+      <module name="WebProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="corona_19.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\onegt\anaconda3\envs\WebTeamProject\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="WebProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="WebProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="WebProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="WebProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="WebProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="WebProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.Unnamed" />
+      <item itemvalue="Python.1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab161ddf-6ae9-4da3-9006-279fff52403e" name="Changes" comment="" />
+      <created>1645496947460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645496947460</updated>
+      <workItem from="1645496949032" duration="7275000" />
+      <workItem from="1645508026027" duration="6000" />
+      <workItem from="1645508803791" duration="12000" />
+      <workItem from="1645509013809" duration="30000" />
+      <workItem from="1645509080064" duration="3976000" />
+      <workItem from="1645515566326" duration="489000" />
+      <workItem from="1645517444178" duration="2502000" />
+      <workItem from="1645575511063" duration="7030000" />
+      <workItem from="1645661108488" duration="5179000" />
+      <workItem from="1645683230656" duration="4820000" />
+      <workItem from="1645762193053" duration="5781000" />
+      <workItem from="1646181827334" duration="19190000" />
+      <workItem from="1646373236617" duration="605000" />
+      <workItem from="1646381084279" duration="1267000" />
+      <workItem from="1646611730695" duration="352000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WebTeamProject$1.coverage" NAME="1 Coverage Results" MODIFIED="1646196058470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
