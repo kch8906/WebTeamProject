@@ -1,12 +1,11 @@
-// Open API request URL에 넣을 당일 날짜 생성하는 변수들
-const today = new Date();
-const year = today.getFullYear();
-const month = ('0'+ (today.getMonth() + 1)).slice(-2);
-const day = ('0' + today.getDate()).slice(-2);
-const dateString = year + '-' + month + '-' + day;
-
 // Open API 코로나 예방접종 현황
 $(function () {
+    // Open API request URL에 넣을 당일 날짜 생성하는 변수들
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = ('0'+ (today.getMonth() + 1)).slice(-2);
+    const day = ('0' + today.getDate()).slice(-2);
+    const dateString = year + '-' + month + '-' + day;
     $.ajax({
         async: true,
         url: 'https://api.odcloud.kr/api/15077756/v1/vaccine-stat' + '?page=1&perPage=1&cond%5BbaseDate%3A%3AGT%5D=' + dateString + '&cond%5BbaseDate%3A%3AGTE%5D=' + dateString + '&serviceKey=5efVUPw82kO8VF6ZqPGLMp9zqy%2BqakqBGhELrXviR4QlQ8c7Jq68hU3QRYYtfLkGl2PNXNT0OQcLrxRYwidOPg%3D%3D',

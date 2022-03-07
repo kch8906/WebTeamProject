@@ -1,8 +1,8 @@
 @charset "utf-8";
 *{box-sizing: border-box;}
 /* font-face */
-@font-face {font-family:'Spoqa Han Sans'; font-style:normal; font-weight:400; src:url(../font/SpoqaHanSansRegular.woff2) format('woff2'), url(../font/SpoqaHanSansRegular.woff) format('woff'), url(../font/SpoqaHanSansRegular.ttf) format('truetype');}
-@font-face {font-family:'Spoqa Han Sans'; font-style:normal; font-weight:700; src:url(../font/SpoqaHanSansBold.woff2) format('woff2'), url(../font/SpoqaHanSansBold.woff) format('woff'), url(../font/SpoqaHanSansBold.ttf) format('truetype');}
+/*@font-face {font-family:'Spoqa Han Sans'; font-style:normal; font-weight:400; src:url(../font/SpoqaHanSansRegular.woff2) format('woff2'), url(../font/SpoqaHanSansRegular.woff) format('woff'), url(../font/SpoqaHanSansRegular.ttf) format('truetype');}*/
+/*@font-face {font-family:'Spoqa Han Sans'; font-style:normal; font-weight:700; src:url(../font/SpoqaHanSansBold.woff2) format('woff2'), url(../font/SpoqaHanSansBold.woff) format('woff'), url(../font/SpoqaHanSansBold.ttf) format('truetype');}*/
 
 /*메인 공통*/
 .main_container{}
