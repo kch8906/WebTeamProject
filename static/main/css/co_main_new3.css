@@ -7,7 +7,7 @@
 /*메인 공통*/
 .main_container{}
 .main_embanner { width:100%;}
-.mainlive_container { width:100%; height:auto; overflow:hidden; background-color:#EEEFEF; padding-bottom: 20px;}
+.mainlive_container { width:100%; height:auto; overflow:hidden; background-color:ghostwhite; padding-bottom: 20px;}
 .mainlive_container > .container > div { padding-bottom:25px;}
 @media (min-width:1180px) {
 	.mainlive_container > .container > div { padding:0;}
