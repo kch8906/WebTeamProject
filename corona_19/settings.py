@@ -27,13 +27,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'bootstrap4',
+    # 'debug_toolbar',
+    # 'hitcount',
     'main.apps.MainConfig',
     'users.apps.UsersConfig',
     'probbs.apps.ProbbsConfig',
     'maps.apps.MapsConfig',
-    'bootstrap4',
-    'debug_toolbar',
-    'hitcount',
+    'guide.apps.GuideConfig',
+    'diagnosis.apps.DiagnosisConfig',
 ]
 
 MIDDLEWARE = [
@@ -44,8 +46,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
-
+    # 'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'corona_19.urls'
@@ -117,6 +118,7 @@ USE_L10N = True
 USE_TZ = True
 
 INTERNAL_IPS = ['127.0.0.1']
+
 # Static files (CSS, JavaScript, Images)
 # http://127.0.0.1:8000/static/
 STATIC_URL = '/static/'
