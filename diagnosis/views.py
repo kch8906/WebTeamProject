@@ -29,7 +29,7 @@ def my_views(request):
         result = sum(select_list)
 
         if len(select_list) != 8:
-            messages.warning(request, '선택지를 모두 제출해 주세요.'.format(result))
+            messages.warning(request, '선택지를 모두 제출해 주세요.')
             return render(request, 'diagnosis/main2.html')
 
         else:
@@ -40,7 +40,7 @@ def my_views(request):
             elif 4 <= result or result == 8:
                 messages.warning(request, '{} 표 입니다. 코로나가 의심되오니 즉시 선별검사소나 병원을 방문하세요. 5초 뒤 "전문의에게 물어보세요" 페이지로 이동합니다.'.format(result))
                 return render(request, 'diagnosis/main1.html')
-            #
+
             # elif result == 8:
             #     messages.warning(request, '{} 표 입니다. 코로나가 의심되오니 즉시 선별검사소나 병원을 방문하세요. 5초 뒤 "전문의에게 물어보세요" 페이지로 이동합니다.'.format(result))
             #     return render(request, 'diagnosis/main1.html')

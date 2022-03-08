@@ -29,6 +29,11 @@
     <script src="/static/main/js/chartjs-plugin-datalabels.min.js"></script>
     <script src="/static/main/js/chart_kr.js"></script>
 
+<script>
+function link_url(link_url) {
+    document.location.href = link_url;
+}
+</script>
 {% block html_header %}
 
 {% endblock %}
@@ -67,7 +72,7 @@
                         </li>
                         <li><a href="/diagnosis/">자가진단</a>
                         </li>
-                        <li><a href= {% url 'probbs:index' %} >전문의에게 물어보세요</a>
+                        <li><a href={% url 'probbs:index' %}>전문의에게 물어보세요</a>
                         </li>
                     </ul>
                 </div>
@@ -76,6 +81,9 @@
 
 {% block html_body %}
 
+{% endblock %}
+
+{% block script %}
 {% endblock %}
 </body>
 </html>

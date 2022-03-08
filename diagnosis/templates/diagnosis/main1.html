@@ -1,5 +1,4 @@
 {% extends 'base.html' %}
-
 {% load bootstrap4 %}
 
 {% block html_header %}
@@ -15,7 +14,8 @@
     }, 5000);
 
     function go_probbs(){
-        window.location.href = '/probbs/'
+        // window.location.href = {% url 'guide:guide' %}
+        window.location.href = '{% url 'probbs:index' %}'
     }
 </script>
 
@@ -134,12 +134,13 @@ strong {
 
    {% for message in messages %}
         <div class="alert {{ message.tags }} alert-auto-dismissible alert-dismissible notification-container text-center" role="alert">
-            <span aria-hidden="true">&times</span>
+            <span aria-hidden="true"></span>
             {{ message }}
         </div>
-    {% endfor %}
+   {% endfor %}
 
             <form action="{% url 'diagnosis:my_views' %}" method="post" class="requires-validation" novalidate>
+<!--            <form action="/diagnosis/test/" class="requires-validation" method="post" novalidate>-->
                 <h3>Self&nbsp;Diagnosis</h3>
                 {% csrf_token %}
                 <div class="col-md-12" style="margin-left: 30px;margin-top: 20px;">

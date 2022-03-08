@@ -10,10 +10,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),                                          # Admin Page
     path('main/', include('main.urls')),                                      # login 후 Home Page
     path('users/', include('users.urls')),                                    # login, 회원가입 page
-    path('maps/', include('maps.urls')),                                      # Maps Page
-    path('bbs/', include('probbs.urls')),                                     # Pro BBS Page(전문의에게 물어보세요 게시판)
+    path('maps/', include('maps.urls')),                                      # 병원 map page
+    path('bbs/', include('probbs.urls')),                                     # 전문의 게시판 page
     path('guide/', include('guide.urls')),                                    # Guide Page(코로나 증상 및 예방 조치)
-    path('diagnosis/', include('diagnosis.urls')),                            # Diagnosis Page(자가진단)
+    path('diagnosis/', include('diagnosis.urls')),
 ] + static(settings.MEDIA_URL,
            document_root=settings.MEDIA_ROOT)
 
