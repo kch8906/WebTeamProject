@@ -51,9 +51,6 @@ table.ds_table tbody tr:last-of-type td:last-of-type{border-bottom-right-radius:
 	table.ds_table tbody th br{display: block}
 }
 
-
-
-
 /* 메인 gnb 마우스 hover시 */
 .header.on{border-bottom:1px solid #e1e6eb;}
 .h_right{position: relative; z-index: 11}
@@ -108,52 +105,6 @@ table.ds_table tbody tr:last-of-type td:last-of-type{border-bottom-right-radius:
 
 }
 
-/*발생현황 표*/
-.occurrenceStatus table.ds_table tbody th{height: 53px;}
-.occurrenceStatus table.ds_table tbody td{height: 53px;}
-/*.occurrenceStatus table.ds_table thead th:nth-of-type(2) span{ background: #9D9D9D; color:#fff; }
-.occurrenceStatus table.ds_table thead th:nth-of-type(3) span{ background: #4EA5A8; color:#fff; }
-.occurrenceStatus table.ds_table thead th:nth-of-type(4) span{ background: #4677C2 ; color:#fff;}
-.occurrenceStatus table.ds_table thead th:nth-of-type(5) span{ background: #706092; color:#fff; }*/
-
-@media (max-width:1179px) {
-
-}
-
-@media (max-width:767px) {
-	table.ds_table tbody th img{width: 25px; height: 25px; right: 8px; top: 10px;}
-
-}
-
-
-/*발생현황 표*/
-
-/*발생현황 누적 확진 및 사망자 박스*/
-.occurrenceStatus{margin-top: 20px;}
-.occurrenceStatus .occur_num{ border-radius: 5px; overflow: hidden; margin-top: 5px; }
-.occurrenceStatus .occur_num .box{float: left; width: 50%; padding: 15px 10px; font-size: 15px; font-weight: 500; color:#fff; text-align: left; position: relative;}
-.occurrenceStatus .occur_num .box:nth-of-type(1){width: 200px; text-align: center}
-.occurrenceStatus .occur_num .box:nth-of-type(2){width: calc(100% - 200px); padding: 15px 20px}
-.occurrenceStatus .occur_num .box:first-of-type:before{display: none}
-.occurrenceStatus .occur_num .box > span{ display: inline-block; margin-right: 10px}
-.occurrenceStatus .occur_num .box:first-of-type{background: #9D9D9D}
-.occurrenceStatus .occur_num .box:nth-of-type(2){background: #606792}
-.occurrenceStatus .occur_num .box a{position: absolute; right:20px; top: 50%; transform: translateY(-50%); font-size: 13px; font-weight: 700; color:#574e3e; background: #fff; padding: 3px 8px 5px; border-radius: 10px; text-align: center; transition: .3s}
-.occurrenceStatus .occur_num .box a:hover, .occurrenceStatus .occur_num .box a:focus{background: #3f2e63; color:#fff;}
-.occurrenceStatus .occur_num .box a span{ vertical-align: middle}
-.occurrenceStatus .occur_num .box a img{ vertical-align: bottom; margin-left: 3px; padding: 1px; border-radius: 50%; background: #fff;}
-
-
-@media (max-width:1179px) {
-	.occurrenceStatus .occur_num .box:nth-of-type(1){width: 50%}
-	.occurrenceStatus .occur_num .box:nth-of-type(2){width: 50%}
-}
-
-@media (max-width:767px) {
-	.occurrenceStatus .occur_num .box{font-size: 14px}
-	.occurrenceStatus .occur_num .box:nth-of-type(1), .occurrenceStatus .occur_num .box:nth-of-type(2){float: none; width: 100%; padding: 15px 20px; text-align: left}
-}
-
 /*예방접종현황 및 병상현황 layout*/
 .vaccineHospital{margin-top: 20px;}
 .vaccineHospital > .vH_left{float: left; width:500px; padding-right: 20px}
@@ -169,7 +120,7 @@ table.ds_table tbody tr:last-of-type td:last-of-type{border-bottom-right-radius:
 /*예방접종현황*/
 .vaccineNum{margin-top: 20px;}
 .vaccineNum > div{ overflow: hidden; border-radius: 7px; overflow: hidden; box-shadow: 0px 6px 10px #00000012; }
-.vaccine_list{background: #fff;  overflow: hidden; width: 780px; float: left; position: relative; }
+.vaccine_list{background: #fff;  overflow: hidden; width: 830px; float: left; position: relative; }
 .vaccine_list:after{content:""; display: block; position: absolute; right:0px; top:0px; width: 1px; height: 38px; background:#1B70C5;}
 .vaccineNum .vaccine_list *{ }
 .vaccineNum .vaccine_list .box{float: left; width: 33.333%;  position: relative; }
@@ -206,7 +157,7 @@ table.ds_table tbody tr:last-of-type td:last-of-type{border-bottom-right-radius:
 /*예방접종현황*/
 
 /*일일 확진자 발생 현황*/
-.child_list{float: right; width: 400px; min-height: 100px; position: relative}
+.child_list{float: right; width: 350px; min-height: 100px; position: relative}
 .child_list:before{content: ''; position: absolute; left: 0 ;top: 50%; width: 1px; height: 36px; background: rgba(112,112,112,.4); z-index: 1}
 .child_list .item{font-size: 18px;font-weight: 500; text-align: center; background: #14589D; padding: 10px; color:#fff; position: relative}
 .child_list .box{float: left; width: 100%; background: #fff; padding: 25px 10px; text-align: center; position: relative; min-height: 100px}
