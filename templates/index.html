@@ -9,7 +9,48 @@ function link_url(link_url) {
 }
 </script>
 
+{#<script type="text/javascript">#}
+{#// Open API 코로나 확진자 현황#}
+{#$(function () {#}
+{#    // Open API request URL에 넣을 당일 날짜 생성하는 변수들#}
+{#    const today = new Date();#}
+{#    const year = today.getFullYear();#}
+{#    const month = ('0' + (today.getMonth() + 1)).slice(-2);#}
+{#    const day = ('0' + today.getDate()).slice(-2);#}
+{#    const dateStringT = year + month + day;#}
+{#    const dateStringY = year + month + '0' + (day - 1);#}
+{##}
+{#    $.ajax({#}
+{#        async: true,#}
+{#        url: 'http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19InfStateJson',#}
+{#        data: {#}
+{#            ServiceKey: '5efVUPw82kO8VF6ZqPGLMp9zqy+qakqBGhELrXviR4QlQ8c7Jq68hU3QRYYtfLkGl2PNXNT0OQcLrxRYwidOPg==',#}
+{#            pageNo: '1',#}
+{#            numOfRows: '1',#}
+{#            startCreateDt: dateStringY,#}
+{#            endCreateDt: dateStringT,#}
+{#        },#}
+{#        method: 'GET',#}
+{#        timeout: 3000,#}
+{#        dataType: 'XML',#}
+{#        success: function(result) {#}
+{#            console.log(result)#}
+{#            $('.livedate2').text((today.getMonth() + 1) + "/" + today.getDate() + " 기준")#}
+{#            $(result).find('items').each(function () {#}
+{#            const cNum=$(this).find('decideCnt').text()#}
+{#            const cNum1 = cNum.split(cNum[7])#}
+{#            const cNum2 = (cNum[7]) + (cNum1[1])#}
+{#            coronaNum = cNum1[0] - cNum2#}
+{#            console.log(cNum1[0], cNum2)#}
+{#            $('#coronaNum').text((Math.ceil(coronaNum)) + "명")#}
+{#            });#}
+{#        }#}
+{#    });#}
+{#})#}
+{#</script>#}
+
 <script src="/static/main/js/vaccineNum.js"></script>
+<script src="/static/main/js/coronaNum.js"></script>
 
 {% endblock %}
 
@@ -21,7 +62,7 @@ function link_url(link_url) {
         <div class="liveboard_layout">
             <!-- // 예방접종 현황 시작 -->
             <div class="vaccineNum">
-                <h2 class="title1">예방접종현황<span class="livedate">(02.21. 00시 기준, '21.2.26. 이후 누계, 단위: %, 명)</span></h2>
+                <h2 class="title1">예방접종 현황<span class="livedate1">(02.21. 00시 기준, '21.2.26. 이후 누계, 단위: %, 명)</span></h2>
                     <div>
                         <div class="vaccine_list">
                             <div class="inner cl_b_aftr">
@@ -54,6 +95,20 @@ function link_url(link_url) {
                                             <li class="person" id="person3N"><span>신규</span>7,253 <img src="/static/main/img/main/vaccine_up_icon2.png" alt=""></li>
                                         </ul>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="child_list">
+                            <div class="item"><span>일일 확진자 발생 현황</span></div>
+{#                        <div class="corona_list">#}
+{#                            <div class="item"><span>일일 확진자 발생 현황</span></div>#}
+                            <div class="inner cl_b_aftr">
+                                <div class="box">
+                                    <ul>
+                                        <br>
+                                        <li class="object" id="livedate2">기준일</li>
+                                        <li class="percent" id="coronaNum">82.9</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>

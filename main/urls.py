@@ -1,6 +1,6 @@
 # Main URLConf(http://127.0.0.1:8000/main)
 from django.urls import path
-from main import views
+# from main import views
 
 app_name = 'main'
 

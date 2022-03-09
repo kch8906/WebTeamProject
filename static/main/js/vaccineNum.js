@@ -6,6 +6,7 @@ $(function () {
     const month = ('0'+ (today.getMonth() + 1)).slice(-2);
     const day = ('0' + today.getDate()).slice(-2);
     const dateString = year + '-' + month + '-' + day;
+
     $.ajax({
         async: true,
         url: 'https://api.odcloud.kr/api/15077756/v1/vaccine-stat' + '?page=1&perPage=1&cond%5BbaseDate%3A%3AGT%5D=' + dateString + '&cond%5BbaseDate%3A%3AGTE%5D=' + dateString + '&serviceKey=5efVUPw82kO8VF6ZqPGLMp9zqy%2BqakqBGhELrXviR4QlQ8c7Jq68hU3QRYYtfLkGl2PNXNT0OQcLrxRYwidOPg%3D%3D',
@@ -14,7 +15,7 @@ $(function () {
         timeout: 3000,
         dataType: 'json',
         success: function(result) {
-            console.log(result)
+            // console.log(result)
             let img1 = $('<img />')
             let img2 = $('<img />')
             let img3 = $('<img />')
@@ -23,7 +24,7 @@ $(function () {
             img2.attr('src', imgUrl, 'alt', '')
             img3.attr('src', imgUrl, 'alt', '')
 
-            $('.livedate').text("( " + dateString + " 기준, 2021-2-26 이후 누계, 단위: 명 )")
+            $('.livedate1').text("( " + dateString + " 기준, 2021-2-26 이후 누계, 단위: 명 )")
 
             // 소수점 자릿수 설정하는 함수 Ver. 3, toString() & replace()
             const n11 = result['data'][0]['totalFirstCnt'];
