@@ -6,7 +6,7 @@ $(function () {
     const month = ('0' + (today.getMonth() + 1)).slice(-2);
     const day = ('0' + today.getDate()).slice(-2);
     const dateStringT = year + month + day;
-    const dateStringY = year + month + '0' + (day - 1);
+    const dateStringY = year + month + (day - 1);
 
     $.ajax({
         async: true,
