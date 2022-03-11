@@ -4,9 +4,10 @@ $(function () {
     const today = new Date();
     const year = today.getFullYear();
     const month = ('0' + (today.getMonth() + 1)).slice(-2);
-    const day = ('0' + today.getDate()).slice(-2);
-    const dateStringT = year + month + day;
-    const dateStringY = year + month + '0' + (day - 1);
+    const tday = ('0' + today.getDate()).slice(-2);
+    const yday = ('0' + (today.getDate() - 1)).slice(-2);
+    const dateStringT = year + month + tday;
+    const dateStringY = year + month + yday;
 
     $.ajax({
         async: true,
